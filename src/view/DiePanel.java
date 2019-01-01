@@ -20,6 +20,10 @@ public class DiePanel extends JPanel
 	{
 		roll = (int) (Math.random() * 6) + 1;
 	}
+	public int getRoll()
+	{
+		return roll;
+	}
 	
 	public void roll()
 	{

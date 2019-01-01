@@ -60,4 +60,9 @@ public class DicePanel extends JPanel
 		
 		repaint();
 	}
+
+	public int[] getDiceRoll()
+	{
+		return new int[] {leftDiePanel.getRoll(), rightDiePanel.getRoll()};
+	}
 }
